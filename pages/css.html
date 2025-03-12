@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Programming | CSS</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .css-internal {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><a href="../index.html">Web Programming</a></h1>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#">Ini Dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Isi Dropdown 1</a></li>
+                            <li><a href="#">Isi Dropdown 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="lists.html">Lists</a></li>
+                    <li><a href="tables.html">Tables</a></li>
+                    <li><a href="images.html">Images</a></li>
+                    <li><a href="links.html">Links</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <div class="content">
+            <div class="css-inline">
+                <h1 style="background-color: red; color: white;">Teks ini menggunakan inline css</h1>
+            </div>
+
+            <div class="css-internal">
+                <h1>Teks ini menggunakan internal css</h1>
+            </div>
+
+            <div class="css-external">
+                <h1>Teks ini menggunakan external css</h1>
+            </div>
+        </div>
+    
+        <div class="footer">
+            <p>By Faiz Abyan</p>
+        </div>
+    </div>
+</body>
+</html>
